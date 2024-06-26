@@ -30,6 +30,11 @@
 
 ---
 
+- **index.js**:
+- Entry point of the application.
+
+
+---
 
 #### **.env:**
 

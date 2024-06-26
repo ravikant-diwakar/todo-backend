@@ -30,7 +30,7 @@
 
 ---
 
-- **index.js**:
+**index.js**:
 - Entry point of the application.
 
 

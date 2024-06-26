@@ -51,7 +51,8 @@
 ---
 
 
-#### `package.json`
+#### **package.json**
+
 - **Scripts**:
   - `start`: Runs the app with Node.
   - `dev`: Runs the app with Nodemon for development.

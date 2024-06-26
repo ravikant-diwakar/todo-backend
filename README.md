@@ -50,3 +50,38 @@
 
 ---
 
+
+#### `package.json`
+- **Scripts**:
+  - `start`: Runs the app with Node.
+  - `dev`: Runs the app with Nodemon for development.
+- **Dependencies**:
+  - `dotenv`: For loading environment variables.
+  - `express`: For server setup.
+  - `mongoose`: For interacting with MongoDB.
+  - `nodemon`: For auto-restarting the server during development.
+
+```json
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.7.0",
+    "nodemon": "^2.0.22"
+  }
+}
+```
+
+---
+

@@ -2,22 +2,6 @@
 
 ---
 
-# TODO App Backend
-
-This is a simple TODO app backend built with Node.js, Express.js, and MongoDB. The app allows users to create, read, update, and delete todo items.
-
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the App](#running-the-app)
-- [Folder Structure](#folder-structure)
-- [API Endpoints](#api-endpoints)
-- [License](#license)
-
 ## Features
 
 - Create a new todo item
@@ -45,8 +29,7 @@ This is a simple TODO app backend built with Node.js, Express.js, and MongoDB. T
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/todoapp-backend.git
-   cd todoapp-backend
+   git clone https://github.com/ravikan-diwakar/todoapp-backend.git
    ```
 
 2. Install dependencies:
@@ -94,14 +77,6 @@ todoapp-backend
 ├── package-lock.json
 ├── package.json
 ```
-
-- **config:** Configuration files, including database connection setup.
-- **controllers:** Contains the logic for handling requests and responses for different routes.
-- **models:** Mongoose schemas and models for MongoDB collections.
-- **routes:** Route definitions for the API endpoints.
-- **index.js:** Entry point of the application.
-- **.env:** Environment variables configuration.
-- **package.json:** Metadata and dependencies of the project.
 
 ## API Endpoints
 
